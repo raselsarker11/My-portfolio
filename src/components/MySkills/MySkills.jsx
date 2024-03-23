@@ -4,12 +4,15 @@ import cssLogo from "../../assets/logo/css_logo.png";
 import javascriptLogo from "../../assets/logo/javascript_logo.png";
 import cLogo from "../../assets/logo/C_logo.png";
 import cplusplusLogo from "../../assets/logo/C++.png";
+import pythonLogo from "../../assets/logo/Python.jpg";
 import bootstrapLogo from "../../assets/logo/bootstrap_logo.png";
 import tailwindLogo from "../../assets/logo/tailwind_logo.png";
-import nodeLogo from "../../assets/logo/node_logo.png";
-import prisma from "../../assets/logo/prisma.png";
-import nextLogo from "../../assets/logo/next_logo.png";
-import typescript from "../../assets/logo/typescript.webp";
+import djangoLogo from "../../assets/logo/django.png";
+import restapiLogo from "../../assets/logo/rest_api.png";
+import awsLogo from "../../assets/logo/aws.png";
+import cloudLogo from "../../assets/logo/cloud.jpg";
+import mqlLogo from "../../assets/logo/mysql.jpg";
+import sqliteLogo from "../../assets/logo/sqlite.jpg";
 import postgresql from "../../assets/logo/postgresql.jpg";
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -68,7 +71,7 @@ const skills = [
     title: "Cloud Computing",
   },
   {
-    image: mql,
+    image: mqlLogo,
     title: "MySQL",
   },
   {

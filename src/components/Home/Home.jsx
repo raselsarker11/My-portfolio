@@ -39,7 +39,7 @@ const Home = () => {
         </h4>
 
         <p className="mt-5 text-lg font-normal">
-          Passionate about creating visually appealing, user-friendly websites.
+          Passionate about creating visually appealing, user-friendly software development.
           Seeking opportunities to drive innovation, exceed client expectations,
           and advance my career in software development.
         </p>
