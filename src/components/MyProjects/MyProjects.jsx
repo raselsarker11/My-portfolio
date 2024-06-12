@@ -1,19 +1,19 @@
 import Underline from "../Underline";
-import bookCatalog from "../../assets/images/book-catelog.png";
-import usedProducts from "../../assets/images/used-products.png";
-import computerService from "../../assets/images/computer-and-it-service.png";
+import happyshoping from "../../assets/images/Happy-shoping_.png";
+import portfolio from "../../assets/images/Happy-shoping_.png";
+import homerental from "../../assets/images/Happy-shoping_.png";
 import { Link } from "react-router-dom";
 
 const projects = [
   {
-    bgImage: computerService,
+    bgImage: happyshoping,
     name: "Portfolio Builder",
     description:
       "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the projects without login and give rating/review the project.An authenticated user can add projects,skills, write blogs, and update his profile..User Can review any service and see his/her review",
     liveSite: "",
-    client: "https://github.com/MdShafikulIslam1/computer-it-service-frontend",
+    client: "https://raselsarker11.github.io/Happy-shoping/",
     server:
-      "https://github.com/MdShafikulIslam1/computer-and-it-servervice-backend",
+      "https://smart-shoping-whb0.onrender.com",
     technologies: [
       "HTML",
       "CSS",
@@ -24,7 +24,25 @@ const projects = [
     ],
   },
   {
-    bgImage: bookCatalog,
+    bgImage: happyshoping,
+    name: "Portfolio Builder",
+    description:
+      "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the projects without login and give rating/review the project.An authenticated user can add projects,skills, write blogs, and update his profile..User Can review any service and see his/her review",
+    liveSite: "",
+    client: "https://raselsarker11.github.io/Happy-shoping/",
+    server:
+      "https://smart-shoping-whb0.onrender.com",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Python",
+      "Django",
+      "MySQL",
+    ],
+  },
+  {
+    bgImage: portfolio,
     name: "Happy shoping",
     description:
       "seller can add book,update book.Users see top selling books ,add to cart and can order.Apply jwt based custom authentication,authorization and user persistence",
@@ -42,7 +60,7 @@ const projects = [
     ],
   },
   {
-    bgImage: usedProducts,
+    bgImage: homerental,
     name: "Task management",
     description:
       "Dashboard page where Admin can control all buyers and sellers user.firebase authentication      . Buyers also purchase products by Visa,MasterCard and other international payment cards.       Apply jsonwebtoken(jwt) for users information security purposes.",

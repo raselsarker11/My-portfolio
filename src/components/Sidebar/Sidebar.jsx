@@ -4,7 +4,7 @@ import { BiHomeAlt2 } from "react-icons/bi";
 import { BiSolidUserDetail, BiSolidContact } from "react-icons/bi";
 import { GoProjectSymlink } from "react-icons/go";
 import { GiSkills } from "react-icons/gi";
-import Resume from "../../assets/Shofikul-Islam.pdf";
+import Resume from "../../assets/Rasel-Sarker.pdf";
 import SocialLinks from './../SocialLinks/SocialLinks';
 
 const Sidebar = ({ open, setOpen }) => {

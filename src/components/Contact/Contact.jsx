@@ -24,10 +24,10 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('portfolioService',
-            'template_1r3kcrt',
+        emailjs.sendForm('service_il8mjz9',
+            'template_mr89ryi',
             form.current,
-            '2aeXz6zDJ2l5oX4F0'
+            'qAfvdVXlhM9uYp7hK'
         )
             .then(() => {
                 toast.success('Thanks You so much for your response!')

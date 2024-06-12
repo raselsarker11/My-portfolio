@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import photo from "../../assets/Rasel.jpg";
-import Resume from "../../assets/Shofikul-Islam.pdf";
+import Resume from "../../assets/Rasel-Sarker.pdf";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
