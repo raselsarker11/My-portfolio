@@ -9,11 +9,12 @@ import bootstrapLogo from "../../assets/logo/bootstrap_logo.png";
 import tailwindLogo from "../../assets/logo/tailwind_logo.png";
 import djangoLogo from "../../assets/logo/django.png";
 import restapiLogo from "../../assets/logo/rest_api.png";
-import awsLogo from "../../assets/logo/aws.png";
+// import awsLogo from "../../assets/logo/aws.png";
 import cloudLogo from "../../assets/logo/cloud.jpg";
 import mqlLogo from "../../assets/logo/mysql.jpg";
 import sqliteLogo from "../../assets/logo/sqlite.jpg";
 import postgresql from "../../assets/logo/postgresql.jpg";
+import reactLogo from "../../assets/logo/react.jpeg";
 import "aos/dist/aos.css";
 import Aos from "aos";
 // ..
@@ -63,8 +64,8 @@ const skills = [
     title: "RestAPIs",
   },
   {
-    image: awsLogo,
-    title: "AWS",
+    image: reactLogo,
+    title: "React.js",
   },
   {
     image: cloudLogo,

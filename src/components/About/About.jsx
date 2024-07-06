@@ -12,8 +12,6 @@ AOS.init({
 const About = () => {
   return (
     <div id="about me" className=" py-20 w-full">
-      {/* <h1 className="text-4xl text-center font-bold">About Me</h1>
-            <Underline lineLength={"200"} /> */}
 
       <div className="md:flex  w-full  gap-10">
         <div className="md:w-1/2" data-aos="fade-right">
@@ -24,30 +22,13 @@ const About = () => {
 
           <h2 className="text-2xl font-bold mb-3 ">Backend Developer(python/Django)</h2>
           <p className="text-justify">
-            This is Rasel sarker, Undergraduate Student at National University of
-            Bangladesh.I am a Backend Developer(python/Django) and Newbie competive programmer.
-            Programming is my passion and profession.I enjoy programming.I have proficiency in
-            HTML5, CSS3, Javascript, C/C++, Python, MySQL, Sqlite, Postgresql, Django, RestAPIS, AWS, many more. I have
-            completed more than 20 projects including 2 full-stack projects. I
-            am a self-motivated and hard-working person. I am capable of writing
-            clean and reusable code. I am qualified to adapt to new technology
-            in a short time. As a Backend developer, my goal is to deliver
-            outstanding project experiences that prioritize user satisfaction.
+          Hello, I'm Rasel Sarker, an undergraduate 4th years student at the National University of Bangladesh and a passionate backend developer specializing in Python and Django. I excel in problem-solving and have experience in Python, Django, REST APIs, React.js, C, C++, DSA, problem-solving, HTML5, CSS3, JavaScript, Tailwind CSS, Bootstrap5, MySQL, SQLite, PostgreSQL, Git, and GitHub. I've completed over 20 projects, including four full-stack applications. I'm eager to dive into Machine Learning and Data Science. My goal is to deliver outstanding project experiences with clean, reusable code. I am self-motivated, quick to adapt to new technologies, and confident I can make a significant impact on your team.
           </p>
           <button className="btn btn-primary mr-5 mt-5 text-white font-normal rounded-sm">
             <a href={Resume} download>
               Download Resume
             </a>
           </button>
-          {/* <button className='btn btn-primary  text-white font-normal rounded-sm'>
-                        <Link
-                            to="https://drive.google.com/file/d/1Uz6lbK-EAVjkkmnKl6euoPu6103D8mcp/view?usp=sharing"
-                            target='_blank'
-                            className='inline-flex items-center'
-                        >
-                            Video
-                        </Link>
-                    </button> */}
         </div>
       </div>
     </div>
