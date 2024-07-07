@@ -10,7 +10,7 @@ export default {
     themes: [
       {
         dark: {
-          primary: "#04cfea",
+          primary: "#00F7F7",
           secondary: "#494965",
           accent: "#8e12fc",
           neutral: "#3d4451",

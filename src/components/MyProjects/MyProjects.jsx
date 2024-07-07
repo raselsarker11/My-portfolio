@@ -1,34 +1,36 @@
 import Underline from "../Underline";
 import happyshoping from "../../assets/images/Happy-shoping_.png";
-import portfolio from "../../assets/images/Happy-shoping_.png";
-import homerental from "../../assets/images/Happy-shoping_.png";
+import authen from "../../assets/images/Authentication.png";
+import portfolio from "../../assets/images/portfoliosite.png";
+import Foodorder from '../../assets/images/Food-ordering-systems.png';
 import { Link } from "react-router-dom";
 
 const projects = [
   {
-    bgImage: happyshoping,
-    name: "Portfolio Builder",
+    bgImage: Foodorder,
+    name: "Food-ordering-systems",
     description:
-      "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the projects without login and give rating/review the project.An authenticated user can add projects,skills, write blogs, and update his profile..User Can review any service and see his/her review",
+      "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the product items without login and give rating/review the project.An authenticated user can add products,delete products, and add reviews specific products..successfully payments.",
     liveSite: "",
-    client: "https://raselsarker11.github.io/Happy-shoping/",
+    client: "https://github.com/raselsarker11/Bistro-Bliss-Restaurant-Clients",
     server:
-      "https://smart-shoping-whb0.onrender.com",
+      "https://github.com/raselsarker11/Bistro-Bliss-Restaurant-Clients",
     technologies: [
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
       "Python",
       "Django",
-      "MySQL",
+      "Django Rest APIS",
+      "React.js",
+      "CSS",
+      "Tailwind CSS",
+      "PostgreSQL",
     ],
   },
   {
     bgImage: happyshoping,
-    name: "Portfolio Builder",
+    name: "Happy-shoping",
     description:
       "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the projects without login and give rating/review the project.An authenticated user can add projects,skills, write blogs, and update his profile..User Can review any service and see his/her review",
-    liveSite: "",
+    liveSite: "https://raselsarker11.github.io/Happy-shoping/",
     client: "https://raselsarker11.github.io/Happy-shoping/",
     server:
       "https://smart-shoping-whb0.onrender.com",
@@ -38,17 +40,18 @@ const projects = [
       "Tailwind CSS",
       "Python",
       "Django",
-      "MySQL",
+      "Django Rest API",
+      "SQLite",
     ],
   },
   {
     bgImage: portfolio,
-    name: "Happy shoping",
+    name: "Portfolio Builder",
     description:
       "seller can add book,update book.Users see top selling books ,add to cart and can order.Apply jwt based custom authentication,authorization and user persistence",
-    liveSite: "https://chimerical-sundae-3e7d70.netlify.app",
-    client: "https://github.com/MdShafikulIslam1/book-catalog-client",
-    server: "https://github.com/MdShafikulIslam1/book-catalog-server",
+    liveSite: "https://portfoliosite-b78f.onrender.com",
+    client: "https://github.com/raselsarker11/Portfolio-site",
+    server: "https://github.com/raselsarker11/Portfolio-site",
     technologies: [
       "HTML5",
       "CSS3",
@@ -56,28 +59,26 @@ const projects = [
       "Python",
       "Django",
       "RestAPI",
-      "Dbsqlite",
+      "SQLite3",
     ],
   },
   {
-    bgImage: homerental,
-    name: "Task management",
+    bgImage: authen,
+    name: "Django React authentication system",
     description:
       "Dashboard page where Admin can control all buyers and sellers user.firebase authentication      . Buyers also purchase products by Visa,MasterCard and other international payment cards.       Apply jsonwebtoken(jwt) for users information security purposes.",
-    liveSite: "https://used-products-f2776.web.app",
-    client: "https://github.com/MdShafikulIslam1/used-products-client-site",
+    liveSite: "https://simple-authentications-system.vercel.app/",
+    client: "https://github.com/raselsarker11/Simple-Authentications-system",
     server:
-      "https://github.com/MdShafikulIslam1/used-products-resale-Server-site",
+      "https://github.com/raselsarker11/Simple-Authentications-backend",
     technologies: [
-      "HTML5",
-      "CSS3",
+      "Python",
+      "Django",
+      "Django Rest APIS",
+      "React.js",
+      "CSS",
       "Tailwind CSS",
-      "DaisyUI",
-      "JavaScript",
-      "React",
-      "Tanstack Query",
-      "Express",
-      "MongoDB",
+      "PostgreSQL",
     ],
   },
 ];
