@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     bgImage: Foodorder,
-    name: "Food-ordering-systems",
+    name: "Food-ordering-systems (Ongoing)",
     description:
       "Simple authentication,authorization and user persistency.Anyone user can visit to this site and view the product items without login and give rating/review the project.An authenticated user can add products,delete products, and add reviews specific products..successfully payments.",
     liveSite: "",
